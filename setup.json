@@ -1,6 +1,6 @@
 {
   "__comment": "Set values to false if no link should be created.",
-  "repoURL": "https://github.com/mrchristian/FormatForFuture-blogpost/",
+  "repoURL": "https://github.com/mrchristian/FormatsForFuture-blogpost/",
   "repoBranch": "main",
   "vivlioURL": "https://vivliostyle.org/viewer/"
 }
