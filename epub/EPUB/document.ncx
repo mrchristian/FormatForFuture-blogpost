@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta name="dtb:fidus" content="117" />
+  </head>
+  <docTitle>
+    <text>Announce Blogpost</text>
+  </docTitle>
+  <navMap>
+
+    <!-- 2.01 NCX: playOrder is optional -->
+    <navPoint id="t1">
+      <navLabel><text>Title page</text></navLabel>
+      <content src="titlepage.xhtml#title" />
+    </navPoint>
+    <navPoint id="t_1_0-1">
+      <navLabel><text>Semantifying the IPCC Reports: A Hackathon</text></navLabel>
+      <content src="document-1.xhtml#_1_0" />
+      <navPoint id="tH2780836-1">
+        <navLabel><text>About the IPCC reports</text></navLabel>
+        <content src="document-1.xhtml#H2780836" />
+      </navPoint>
+      <navPoint id="tH8935051-1">
+        <navLabel><text>Benefits of semantification</text></navLabel>
+        <content src="document-1.xhtml#H8935051" />
+      </navPoint>
+      <navPoint id="tH2912725-1">
+        <navLabel><text>Linked open data: Semantic queries</text></navLabel>
+        <content src="document-1.xhtml#H2912725" />
+      </navPoint>
+      <navPoint id="tH1972442-1">
+        <navLabel><text>How the hackathon works</text></navLabel>
+        <content src="document-1.xhtml#H1972442" />
+        <navPoint id="tH7556542-1">
+          <navLabel><text>How to get involved</text></navLabel>
+          <content src="document-1.xhtml#H7556542" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="tH9681509-1">
+        <navLabel><text>Formats For Future</text></navLabel>
+        <content src="document-1.xhtml#H9681509" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="t2">
+      <navLabel><text>Copyright</text></navLabel>
+      <content src="copyright.xhtml#copyright" />
+    </navPoint>
+  </navMap>
+</ncx>

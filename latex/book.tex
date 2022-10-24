@@ -1,0 +1,34 @@
+\documentclass[11pt]{book}
+
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{svg}
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
+\usepackage{docmute}
+\title{Announce Blogpost}
+\author{}
+
+\begin{document}
+\maketitle
+\def\title#1{\chapter{#1}}
+\tableofcontents
+
+        \input{chapter-1}
+        
+
+\end{document}
